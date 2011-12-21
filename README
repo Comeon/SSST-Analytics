@@ -36,11 +36,12 @@ Installation
 - Install Java Runtime Environment: http://www.java.com. Minimum Requirements: JRE Version 6
 - Start SSST-Analytics.jar (two options)
 
-  1) SSST_Analytics.jar is a runnable JAR file -> Launch SSST-Analytics.jar (GUI version; "results" [default JSON folder])
+  1) SSST_Analytics.jar is a runnable JAR file -> Launch SSST-Analytics.jar 
+     (GUI version; "results" [default JSON folder])
   
   2) Launch SSST-Analytics via command line:
-      - "java -jar SSST_Analytics.jar"                                       (GUI version; "results" [default JSON folder])
-      - "java -jar SSST_Analytics.jar *JSON_directory* start"                (GUI version; "*JSON_directory*" [default JSON folder])
-        "java -jar SSST_Analytics.jar *JSON_directory* complete"             (all forensic analyses)
-        "java -jar SSST_Analytics.jar *JSON_directory* data                  (only data analysis)
-        "java -jar SSST_Analytics.jar *JSON_directory* image                 (only image analysis)                                                                                                       
+      - "java -jar SSST_Analytics.jar"                           (GUI version; "results" [default JSON folder])
+      - "java -jar SSST_Analytics.jar *JSON_directory* start"    (GUI version; "*JSON_directory*" [default JSON folder])
+        "java -jar SSST_Analytics.jar *JSON_directory* complete" (all forensic analyses)
+        "java -jar SSST_Analytics.jar *JSON_directory* data      (only data analysis)
+        "java -jar SSST_Analytics.jar *JSON_directory* image     (only image analysis)                                                                                                       
