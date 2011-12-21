@@ -1,0 +1,46 @@
+Java SSST-Analytics
+===================
+by Wacholski Konrad
+
+SSST-Analytics (digital forensic application) gives criminal investigators the opportunity to analyze all of the
+collected social network data, which are successfully captured by a required application, with the aim to use 
+this information as evidence for digital crimes. This application is based on an external application, 
+called “social snapshot”. The main function of the social snapshot application is to capture social network datasets 
+(this project will focus purely on capturing Facebook data), which contains pro?le information – like user data, photos,
+private messages etc - and associated meta-data - like internal timestamps and unique identi?ers. Due to the diversity 
+of the possible ways to analyze this social network account information, SSST-Analytics focuses on traditional
+forensic data analysis and image matching or rather digital image forensics. 
+
+
+Current features
+----------------
+
+Graphical Interface (Java)
+Download of social network pictures
+Traditional forensic data analysis
+Image matching analysis
+Automatic generation of PDF reports
+
+
+Requirements
+------------
+
+- Social Network Data (e.g captured by "Social Snapshot") - JSON format; "results" [default JSON folder]
+- Minimum one JPEG picture in "srcpics" folder (analysis image)
+- Minimum one social network picture in "pics" folder
+
+
+Installation
+------------
+
+- Install Java Runtime Environment: http://www.java.com. Minimum Requirements: JRE Version 6
+- Start SSST-Analytics.jar (two options)
+
+  1) SSST_Analytics.jar is a runnable JAR file -> Launch SSST-Analytics.jar (GUI version; "results" [default JSON folder])
+  
+  2) Launch SSST-Analytics via command line:
+      - "java -jar SSST_Analytics.jar"                                       (GUI version; "results" [default JSON folder])
+      - "java -jar SSST_Analytics.jar *JSON_directory* start"                (GUI version; "*JSON_directory*" [default JSON folder])
+        "java -jar SSST_Analytics.jar *JSON_directory* complete"             (all forensic analyses)
+        "java -jar SSST_Analytics.jar *JSON_directory* data                  (only data analysis)
+        "java -jar SSST_Analytics.jar *JSON_directory* image                 (only image analysis)                                                                                                       
